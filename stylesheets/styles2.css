@@ -26,20 +26,21 @@ p{
 }
 #efheader{
 	margin-left: 10%;
-	width: 15%;
+	width: 17.5%;
 	display: inline;
 }
 #candado{
 	display: inline;
 }
 #candadosvg{
-	width: 10%;
+	width: 11%;
 	margin-top: -0.2%;
+	margin-left: 2%;
 }
 #boton{
-	margin-left: 43.5%;
+	margin-left: 37%;
 	border-right: solid 1px rgb(240, 240, 240);
-	padding-right: 1%;
+	padding-right: 3%;
 	display: inline;
 }
 /* BOTON */
@@ -71,7 +72,7 @@ p{
     background-image: none;
     border: 1px solid transparent;
     white-space: nowrap;
-    padding: 6px 12px;
+    padding: 10px 18px;
     border-radius: 4px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -206,7 +207,7 @@ section{
 }
 #auxbt{
 	text-align: center;
-	padding-bottom: 4%;
+	padding-bottom: 5%;
 	padding-top: 2%;
 }
 .bt-no-border{
@@ -235,7 +236,7 @@ section{
     background-image: none;
     border: 1px solid transparent;
     white-space: nowrap;
-    padding: 6px 12px;
+    padding: 16px 24px;
     border-radius: 4px;
     -webkit-user-select: none;
     -moz-user-select: none;
