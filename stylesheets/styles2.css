@@ -22,7 +22,6 @@ p{
 	position: relative;
 	background-color: white;
 	padding: 1% 0;
-	z-index: 500;
 	box-shadow:	0px 2px 5px 0 rgb(100, 100, 100);
 }
 #efheader{
@@ -107,7 +106,8 @@ p{
 section{
 	margin-top: 0;
 	padding: 4% 17.5% 4%;
-	background: url("images/pattern-ayuda-01.png") no-repeat center center fixed;
+	background: url(../images/pattern-ayuda-01.png) repeat;
+	background-opacity: 0.5;
 	background-color: rgb(123, 192, 45);
 	background-position: 50% 0;
 	height: 100%;
@@ -144,11 +144,12 @@ section{
 	color: rgb(32, 111, 136);
 	font-size: 18px;
 	font-weight: 400;
+	line-height: 1.9;
 }
 #subheader{
 	color: rgb(47, 145, 199);
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 18px;
 }
 /* FIN ESTILOS CONTENEDOR 2 */
 /* DISPOCISION DE COLUMNAS */
@@ -183,8 +184,9 @@ section{
 	text-align: center;
 }
 #contenedor3 h2{
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 36px;
+	font-family: 'Open Sans', Sans-Serif;
 }
 #reclamosvg{
 	width: 17%;
